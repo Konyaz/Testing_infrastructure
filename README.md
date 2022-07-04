@@ -8,9 +8,9 @@
 ![Docker_Compose](src/images/icons/Docker.svg)
 ![Docker_Compose](src/images/icons/Docker_Compose.svg)
 ![Jenkins](src/images/icons/Jenkins.svg)
-![Selenoid](src/images/icons/Selenoid.svg)
 ![Gradle](src/images/icons/Gradle.svg)
 ![Allure_Report](src/images/icons/Allure_Report.svg)
+![Selenoid](src/images/icons/Selenoid.svg)
 
 
 
