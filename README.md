@@ -71,14 +71,7 @@ java --version
 docker --version
 ```
 
-Устанавливаем Docker Скриптом с помощью curl командой:
-```bash
-sudo curl -fsSL https://get.docker.com -o get-docker.sh
-```
-Проверяем установку Docker командой:
-```bash
-docker --version
-```
+Если Docker не установлен - Инструкция по установке [Docker](./src/images/pages/Docker.md).
 
 
 
@@ -91,15 +84,7 @@ docker --version
 ```bash
 docker-compose --version
 ```
-Устанавливаем Docker Compose Скриптом с помощью curl командой:
-```bash
-sudo curl -SL https://github.com/docker/compose/releases/download/v2.6.1/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
-```
-
-Проверяем установку Docker Compose командой:
-```bash
-docker-compose --version
-```
+Если Docker Compose не установлен - Инструкция по установке [Docker Compose](./src/images/pages/DockerCompose.md).
 
 
 
