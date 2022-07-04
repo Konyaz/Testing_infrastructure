@@ -49,3 +49,4 @@ source /etc/environment
 echo $JAVA_HOME
 ```
 
+[Назад](/README.md)
