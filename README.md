@@ -155,7 +155,7 @@ sudo docker-compose up
 
 Переходим в “Конфигурация глобальных инструментов”.
 
-## Настраиваем:
+### Настраиваем Jenkins:
 
 JDK: (Имя: jdk11, JAVA_HOME: $JAVA_HOME )
 
