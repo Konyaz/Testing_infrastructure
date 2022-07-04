@@ -49,4 +49,7 @@ source /etc/environment
 echo $JAVA_HOME
 ```
 
-[Назад](/README.md)
+
+
+
+<a target="_blank" href="https://github.com/Konyaz/Testing_infrastructure/blob/master/README.md#%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0-docker">Назад</a>
