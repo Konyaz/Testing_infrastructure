@@ -27,7 +27,7 @@ Java вероятнее всего установилась вот так:
 ```bash
 sudo nano /etc/environment
 ```
-
+<p style='color:red'>This is some red text.</p>
 Добавляем крайней строчкой  <font color="red">(Строк может быть больше чем одна поэтому ставить нужно крайней строчкой не удаляя и не трогая другие строки):</font>
 ```bash
 JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
