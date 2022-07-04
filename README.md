@@ -2,11 +2,11 @@
 
 ### Technology Stack
 
-![Winscp](src/images/icons/Winscp.png)
-![Git_bash](src/images/icons/Git_bash.png)
-![Java](src/images/icons/Java.png)
+![Winscp](src/images/icons/Winscp.svg)
+![Git_bash](src/images/icons/Git_bash.svg)
+![Java](src/images/icons/Java.svg)
 ![Docker_Compose](src/images/icons/Docker.svg)
-![Docker_Compose](src/images/icons/Docker_Compose.png)
+![Docker_Compose](src/images/icons/Docker_Compose.svg)
 ![Jenkins](src/images/icons/Jenkins.svg)
 ![Selenoid](src/images/icons/Selenoid.svg)
 ![Gradle](src/images/icons/Gradle.svg)
