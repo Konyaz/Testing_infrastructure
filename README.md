@@ -59,9 +59,7 @@ cd test-stand
 ```bash
 java --version
 ```
-Если Java не установлена ставим:
-
-[Java](./src/images/pages/Java.md)
+Если Java не установлена - Инструкция по установке [Java JDK](./src/images/pages/Java.md)
 
 ## Установка Docker
 
