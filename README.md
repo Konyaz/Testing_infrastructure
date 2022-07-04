@@ -61,6 +61,7 @@ java --version
 ```
 Если Java не установлена ставим:
 
+[Java](./src/images/pages/Java.md)
 
 ## Установка Docker
 
