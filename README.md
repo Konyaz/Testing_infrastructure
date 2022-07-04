@@ -90,7 +90,7 @@ docker-compose --version
 
 После того как установлена Java, прописана её переменная окружения, установлены и проверены Docker и Docker-compose
 
-открываем WinSCP и заходим в папку test-stand.
+Открываем WinSCP и заходим в папку test-stand.
 
 Внутри папки test-stand создаём файл docker-compose.yml
 
@@ -214,7 +214,7 @@ Htpasswd Generator (https://hostingcanada.org/htpasswd-generator/)  - генер
 ```bash
 cd test-stand
 ```
-пишем команду для запуска контейнеров :
+Пишем команду для запуска контейнеров :
 ```bash
 docker-compose up -d
 ```
