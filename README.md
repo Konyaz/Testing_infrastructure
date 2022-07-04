@@ -196,9 +196,9 @@ docker-compose down
 
 
 
-Для того чтоб запаролить Selenoid Ui (Пароль на Selenoid UI Не одно и тоже что пароль на CREATE SESSION .
+Для того чтоб запаролить Selenoid Ui **(Пароль на Selenoid UI Не одно и тоже что пароль на CREATE SESSION .**
 
-Пароль на CREATE SESSION (Selenoid) устанавливается через nginx reverse proxy  перед селеноидом либо ставится ggr )
+**Пароль на CREATE SESSION (Selenoid) устанавливается через nginx reverse proxy  перед SELENOID либо ставится ggr )**
 
 Заходим на сайт https://hostingcanada.org/htpasswd-generator/
 
