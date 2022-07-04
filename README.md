@@ -86,7 +86,7 @@ docker-compose --version
 ```
 Если Docker Compose не установлен - Инструкция по установке [Docker Compose](./src/images/pages/DockerCompose.md).
 
-
+## Установка Jenkins
 
 После того как установлена Java, прописана её переменная окружения, установлены и проверены Docker и Docker-compose
 
@@ -169,7 +169,7 @@ Allure Commandline: ( Имя: allure Версия: последняя)
 
 ![JENKINS](src/images/screenshots/jenkins10.png)
 
-Jenkins настроен.
+#### Jenkins установлен и настроен.
 
 
 ## Устанавливаем Selenoid и Selenoid UI
@@ -221,10 +221,44 @@ docker-compose up -d
 
 
 
-Selenoid и Selenoid UI установлены.
+#### Selenoid и Selenoid UI установлены.
+
+## Проверка
 
 
+##### Проверка Jenkins
 
+Переходим по адресу http://192.168.x.xxx:8888
+
+При верной установке Jenkins, должна отображаться страница авторизации.
+
+![JENKINS](src/images/screenshots/JenkinsCheck.png)
+
+
+##### Проверка Selenoid
+
+Переходим по адресу http://192.168.x.xxx:4444
+
+При верной установке Selenoid, должна отображаться надпись:
+
+You are using Selenoid x.xx.x!
+
+![SELENOID](src/images/screenshots/SelenoidCheck.png)
+
+
+##### Проверка Selenoid UI
+
+Переходим по адресу http://192.168.x.xxx:4445
+
+При верной установке Selenoid UI, должна отображаться страница авторизации.
+
+![SELENOID_UI](src/images/screenshots/SelenoidUICheck1.png)
+
+Вводим заданный логин и пароль.
+
+После авторизации Статус SSE и SELENOID должен отображаться зелёным с надписью **CONNECTED**
+
+![SELENOID_UI](src/images/screenshots/SelenoidUICheck2.png)
 
 ## Дополнение:
 
