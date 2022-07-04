@@ -50,6 +50,4 @@ echo $JAVA_HOME
 ```
 
 
-
-
-<a target="_blank" href="https://github.com/Konyaz/Testing_infrastructure/blob/master/README.md#установка-docker">Назад</a>
+[Назад](/README.md)
