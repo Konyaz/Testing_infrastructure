@@ -119,7 +119,7 @@ sudo docker-compose pull
 ```
 Проверяем установлен ли образ командой:
 ```bash
-sudo docker imgge list
+sudo docker image list
 ```
 ![JENKINS](src/images/screenshots/jenkins2.png)
 
