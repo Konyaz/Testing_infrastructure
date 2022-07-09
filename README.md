@@ -41,7 +41,7 @@
 Открываем git bash заходим на сервер командой:
 
 ```bash
-ssh юзернейм@192.168.x.xxx
+ssh имя_пользователя_сервера@192.168.x.xxx
 ```
 Вводим пароль если требуется, переходим в созданную папку test-stand командой:
 ```bash
@@ -223,6 +223,18 @@ docker-compose up -d
 
 #### Selenoid и Selenoid UI установлены.
 
+#### Установка Браузеров
+
+
+Открываем Git bash На сервере переходим в папку test-stand командой:
+
+cd test-stand
+
+Для установки браузеров пишем команду:
+```bash
+docker pull selenoid/vnc:chrome_93.0 && docker pull selenoid/vnc:chrome_94.0 && docker pull selenoid/vnc:chrome_95.0
+```
+
 ## Проверка
 
 
@@ -259,6 +271,16 @@ You are using Selenoid x.xx.x!
 После авторизации Статус SSE и SELENOID должен отображаться зелёным с надписью **CONNECTED**
 
 ![SELENOID_UI](src/images/screenshots/SelenoidUICheck2.png)
+
+Проверка Браузера
+
+Переходим по адресу http://192.168.x.xxx:4445
+
+Вводим заданный логин и пароль.
+
+Переходим на вкладку CAPABILITIES
+
+Выбираем версию браузера нажимаем CREATE SESSION
 
 ## Дополнение:
 
